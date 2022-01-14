@@ -26,9 +26,9 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 )
 
-const TxGas = 21
-const TxGasPriceDefault = 1
-const TxFee = uint(50)
+const TxGas = 22
+const TxGasPriceDefault = 2
+const TxFee = uint(22)
 
 type State struct {
 	Balances      map[common.Address]uint
