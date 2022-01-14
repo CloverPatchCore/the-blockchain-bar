@@ -17,7 +17,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/spf13/cobra"
+	"github.com/CloverPatchCore/cobra"
 	"github.com/web3coach/the-blockchain-bar/fs"
 	"os"
 )
@@ -35,8 +35,8 @@ const flagBootstrapPort = "bootstrap-port"
 
 func main() {
 	var tbbCmd = &cobra.Command{
-		Use:   "tbb",
-		Short: "The Blockchain Bar CLI",
+		Use:   "cpt",
+		Short: "Clover Patch CLI",
 		Run: func(cmd *cobra.Command, args []string) {
 		},
 	}
