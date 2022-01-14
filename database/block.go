@@ -25,7 +25,7 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 )
 
-const BlockReward = 100
+const BlockReward = 222
 
 type Hash [32]byte
 
