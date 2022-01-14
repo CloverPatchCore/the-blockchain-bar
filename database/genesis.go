@@ -23,11 +23,11 @@ import (
 )
 
 var genesisJson = `{
-  "genesis_time": "2020-06-01T00:00:00.000000000Z",
-  "chain_id": "the-blockchain-bar-ledger",
-  "symbol": "TBB",
+  "genesis_time": "2021-12-27T11:34:01.000000000Z",
+  "chain_id": "clover-patch",
+  "symbol": "CPT",
   "balances": {
-    "0x09eE50f2F37FcBA1845dE6FE5C762E83E65E755c": 1000000
+    "0x3e824d1a3f3622562267012ea1ff377122028a6e": 100,000,000,000,100,000
   },
   "fork_tip_1": 35
 }`
